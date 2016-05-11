@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DemoDetail" parent="AppTheme">
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@color/material_grey_100</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

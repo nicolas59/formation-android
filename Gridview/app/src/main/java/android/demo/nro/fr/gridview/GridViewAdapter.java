@@ -31,6 +31,7 @@ public class GridViewAdapter extends ArrayAdapter<AndroidVersion> {
             convertView  = LinearLayout.inflate(this.getContext(), R.layout.grid_cell_android, null);
             holder = new ViewHolder(convertView);
             convertView.setTag(holder);
+
         }else{
             holder = (ViewHolder)convertView.getTag();
             Log.d(TAG, "Restauration du holder");

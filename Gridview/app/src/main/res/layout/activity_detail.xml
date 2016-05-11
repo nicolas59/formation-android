@@ -7,12 +7,43 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="android.demo.nro.fr.gridview.DetailActivity">
+    tools:context="android.demo.nro.fr.gridview.DetailActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ivAndroid"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@mipmap/ic_launcher" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/textView2" />
+        android:text="Jelly Bean"
+        android:id="@+id/tvName"
+        android:layout_below="@+id/ivAndroid"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        style="@style/DemoDetail" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Version"
+        android:id="@+id/tvVersion"
+        android:layout_below="@+id/tvName"
+        android:layout_alignParentStart="true"
+        style="@style/DemoDetail"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="11/02/2011"
+        android:id="@+id/tvDate"
+        android:layout_below="@+id/tvVersion"
+        android:layout_centerHorizontal="true"
+        style="@style/DemoDetail" />
 </RelativeLayout>
