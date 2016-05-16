@@ -102,4 +102,12 @@ public class AndroidVersion implements Parcelable{
     public void setApiVersion(String apiVersion) {
         this.apiVersion = apiVersion;
     }
+
+    @Override
+    public String toString() {
+        return label ;
+    }
+
+
+
 }
