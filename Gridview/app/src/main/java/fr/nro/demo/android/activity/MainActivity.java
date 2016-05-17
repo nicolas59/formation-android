@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //GridView gridView = (GridView)findViewById(R.id.gridView);
-
        this.androidVersions = Arrays.asList(
                 new AndroidVersion("Froyo", "froyo", "8", "mai 2010"),
                 new AndroidVersion("Gingerbread", "gingerbread", "10", "Decembre 2010"),
