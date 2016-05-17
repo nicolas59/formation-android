@@ -2,7 +2,8 @@ package android.demo.nro.fr.fragment;
 
 
 import android.content.Context;
-import android.demo.nro.fr.gridview.AndroidVersion;
+import android.demo.nro.fr.OnFragmentInteractionListener;
+import android.demo.nro.fr.activity.AndroidVersion;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;

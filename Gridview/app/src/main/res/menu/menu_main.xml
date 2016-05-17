@@ -2,5 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/listview_item" android:title="List"/>
     <item android:id="@+id/grid_item" android:title="Grid"/>
+    <item android:id="@+id/recycler_item" android:title="Recycler View"/>
     <item android:id="@+id/close_item" android:title="Fermer"/>
 </menu>

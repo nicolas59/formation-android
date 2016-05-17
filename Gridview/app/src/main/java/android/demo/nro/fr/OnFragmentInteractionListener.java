@@ -1,6 +1,6 @@
-package android.demo.nro.fr.fragment;
+package android.demo.nro.fr;
 
-import android.demo.nro.fr.gridview.AndroidVersion;
+import android.demo.nro.fr.activity.AndroidVersion;
 
 /**
  * This interface must be implemented by activities that contain this

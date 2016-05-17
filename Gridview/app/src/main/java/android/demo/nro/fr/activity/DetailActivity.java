@@ -1,6 +1,7 @@
-package android.demo.nro.fr.gridview;
+package android.demo.nro.fr.activity;
 
 import android.content.res.Resources;
+import android.demo.nro.fr.gridview.R;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

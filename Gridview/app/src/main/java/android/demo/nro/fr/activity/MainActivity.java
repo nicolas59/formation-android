@@ -1,10 +1,12 @@
-package android.demo.nro.fr.gridview;
+package android.demo.nro.fr.activity;
 
 
 import android.content.Intent;
 import android.demo.nro.fr.fragment.GridFragment;
 import android.demo.nro.fr.fragment.ListFragment;
-import android.demo.nro.fr.fragment.OnFragmentInteractionListener;
+import android.demo.nro.fr.OnFragmentInteractionListener;
+import android.demo.nro.fr.fragment.RecyclerViewFragment;
+import android.demo.nro.fr.gridview.R;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -66,6 +68,10 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             case R.id.listview_item:
                 ListFragment fragment2 = ListFragment.newInstance(androidVersions);
                 loadFragmen(fragment2);
+                break;
+            case R.id.recycler_item:
+                RecyclerViewFragment fragment3 = RecyclerViewFragment.newInstance(androidVersions);
+                loadFragmen(fragment3);
                 break;
             case R.id.close_item:
                 finish();

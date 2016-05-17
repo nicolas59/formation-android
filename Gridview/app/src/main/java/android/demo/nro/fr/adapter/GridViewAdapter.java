@@ -1,6 +1,8 @@
-package android.demo.nro.fr.gridview;
+package android.demo.nro.fr.adapter;
 
 import android.content.Context;
+import android.demo.nro.fr.activity.AndroidVersion;
+import android.demo.nro.fr.gridview.R;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;

@@ -1,4 +1,4 @@
-package android.demo.nro.fr.gridview;
+package android.demo.nro.fr.activity;
 
 import android.os.Parcel;
 import android.os.Parcelable;
