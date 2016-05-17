@@ -1,4 +1,4 @@
-package android.demo.nro.fr.gridview;
+package fr.nro.demo.android;
 
 import org.junit.Test;
 

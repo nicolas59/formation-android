@@ -52,7 +52,7 @@ public class RecyclerViewAdapater extends RecyclerView.Adapter<RecyclerViewAdapa
         private void refresh(){
             this.mTextView.setText(androidVersion.getLabel());
 
-            int res = RecyclerViewAdapater.this.context.getResources().getIdentifier(androidVersion.getImageRef(), "mipmap", this.getPackage());
+            int res = RecyclerViewAdapater.this.context.getResources().getIdentifier(androidVersion.getImageRef(), "drawable", this.getPackage());
             Bitmap img = BitmapFactory.decodeResource(RecyclerViewAdapater.this.context.getResources(), res);
             this.mImageView.setImageBitmap(img);
         }

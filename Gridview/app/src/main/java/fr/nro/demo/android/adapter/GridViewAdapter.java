@@ -41,7 +41,7 @@ public class GridViewAdapter extends ArrayAdapter<AndroidVersion> {
         }
         AndroidVersion androidVersion = this.getItem(position);
         holder.textView.setText(androidVersion.getLabel());
-        int id = this.getContext().getResources().getIdentifier(androidVersion.getImageRef(), "mipmap", this.getContext().getPackageName());
+        int id = this.getContext().getResources().getIdentifier(androidVersion.getImageRef(), "drawable", this.getContext().getPackageName());
         final Bitmap image =  BitmapFactory.decodeResource(this.getContext().getResources(), id);
         holder.imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
         holder.imageView.setImageBitmap(image);

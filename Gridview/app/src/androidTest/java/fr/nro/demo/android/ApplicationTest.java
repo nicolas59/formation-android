@@ -1,4 +1,4 @@
-package android.demo.nro.fr.gridview;
+package fr.nro.demo.android;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

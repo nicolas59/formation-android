@@ -32,12 +32,12 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
        this.androidVersions = Arrays.asList(
                 new AndroidVersion("Froyo", "froyo", "8", "mai 2010"),
-                new AndroidVersion("Gingerbread", "gingerbread"),
-                new AndroidVersion("Ice Scream Sandwich", "ice_scream_sandwich"),
-                new AndroidVersion("Jelly Bean", "jelly_bean"),
-                new AndroidVersion("KitKat", "kitkat"),
-                new AndroidVersion("Lollipop", "lollipop"),
-                new AndroidVersion("Marshmallow", "marshmallow")).toArray(new AndroidVersion[7]);
+                new AndroidVersion("Gingerbread", "gingerbread", "10", "Decembre 2010"),
+                new AndroidVersion("Ice Scream Sandwich", "ice_scream_sandwich", "15", "Octobre 2011"),
+                new AndroidVersion("Jelly Bean", "jelly_bean", "16,17,18", "Juillet 2012"),
+                new AndroidVersion("KitKat", "kitkat", "19", "Octobre 2013"),
+                new AndroidVersion("Lollipop", "lollipop", "21,22", "Novembre 2014"),
+                new AndroidVersion("Marshmallow", "marshmallow", "23", "Octobre 2015")).toArray(new AndroidVersion[7]);
 
 
         GridFragment fragment = GridFragment.newInstance(androidVersions);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
+        final MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_main, menu);
         return true;
     }
@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
             case R.id.close_item:
                 finish();
                 break;
+
         }
         return super.onOptionsItemSelected(item);
     }
