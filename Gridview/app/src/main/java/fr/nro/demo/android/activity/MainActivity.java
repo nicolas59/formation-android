@@ -19,10 +19,13 @@ import fr.nro.demo.android.fragment.RecyclerViewFragment;
 import fr.nro.demo.android.model.AndroidVersion;
 
 
-
+/**
+ * Activité principale permettant d'afficher une liste ou une grille de versions d'Android.
+ */
 public class MainActivity extends AppCompatActivity implements OnFragmentInteractionListener {
 
     private   AndroidVersion[] androidVersions;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
