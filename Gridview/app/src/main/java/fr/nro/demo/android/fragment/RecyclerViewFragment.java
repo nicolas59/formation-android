@@ -1,10 +1,6 @@
-package android.demo.nro.fr.fragment;
+package fr.nro.demo.android.fragment;
 
 import android.content.Context;
-import android.demo.nro.fr.OnFragmentInteractionListener;
-import android.demo.nro.fr.activity.AndroidVersion;
-import android.demo.nro.fr.adapter.RecyclerViewAdapater;
-import android.demo.nro.fr.gridview.R;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -13,6 +9,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import fr.nro.demo.android.OnFragmentInteractionListener;
+import fr.nro.demo.android.R;
+import fr.nro.demo.android.adapter.RecyclerViewAdapater;
+import fr.nro.demo.android.model.AndroidVersion;
 
 /**
  * A simple {@link Fragment} subclass.

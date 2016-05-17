@@ -1,12 +1,6 @@
-package android.demo.nro.fr.activity;
-
+package fr.nro.demo.android.activity;
 
 import android.content.Intent;
-import android.demo.nro.fr.fragment.GridFragment;
-import android.demo.nro.fr.fragment.ListFragment;
-import android.demo.nro.fr.OnFragmentInteractionListener;
-import android.demo.nro.fr.fragment.RecyclerViewFragment;
-import android.demo.nro.fr.gridview.R;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -16,6 +10,14 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import java.util.Arrays;
+
+import fr.nro.demo.android.OnFragmentInteractionListener;
+import fr.nro.demo.android.R;
+import fr.nro.demo.android.fragment.GridFragment;
+import fr.nro.demo.android.fragment.ListFragment;
+import fr.nro.demo.android.fragment.RecyclerViewFragment;
+import fr.nro.demo.android.model.AndroidVersion;
+
 
 
 public class MainActivity extends AppCompatActivity implements OnFragmentInteractionListener {

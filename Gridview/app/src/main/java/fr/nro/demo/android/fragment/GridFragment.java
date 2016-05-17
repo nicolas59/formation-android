@@ -1,12 +1,8 @@
-package android.demo.nro.fr.fragment;
+package fr.nro.demo.android.fragment;
 
 
 import android.app.Activity;
 import android.content.Context;
-import android.demo.nro.fr.OnFragmentInteractionListener;
-import android.demo.nro.fr.activity.AndroidVersion;
-import android.demo.nro.fr.adapter.GridViewAdapter;
-import android.demo.nro.fr.gridview.R;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -16,6 +12,11 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import java.lang.ref.WeakReference;
+
+import fr.nro.demo.android.OnFragmentInteractionListener;
+import fr.nro.demo.android.R;
+import fr.nro.demo.android.adapter.GridViewAdapter;
+import fr.nro.demo.android.model.AndroidVersion;
 
 /**
  * A simple {@link Fragment} subclass.

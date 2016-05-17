@@ -1,4 +1,4 @@
-package android.demo.nro.fr.activity;
+package fr.nro.demo.android.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

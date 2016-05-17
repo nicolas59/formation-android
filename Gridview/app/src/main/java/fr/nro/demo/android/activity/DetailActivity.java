@@ -1,13 +1,15 @@
-package android.demo.nro.fr.activity;
+package fr.nro.demo.android.activity;
 
 import android.content.res.Resources;
-import android.demo.nro.fr.gridview.R;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import fr.nro.demo.android.R;
+import fr.nro.demo.android.model.AndroidVersion;
 
 public class DetailActivity extends AppCompatActivity {
 

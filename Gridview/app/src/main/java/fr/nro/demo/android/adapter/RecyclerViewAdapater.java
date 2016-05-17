@@ -1,8 +1,6 @@
-package android.demo.nro.fr.adapter;
+package fr.nro.demo.android.adapter;
 
 import android.content.Context;
-import android.demo.nro.fr.activity.AndroidVersion;
-import android.demo.nro.fr.gridview.R;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.widget.RecyclerView;
@@ -12,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import fr.nro.demo.android.R;
+import fr.nro.demo.android.model.AndroidVersion;
 
 /**
  * Created by Nicolas on 16/05/2016.

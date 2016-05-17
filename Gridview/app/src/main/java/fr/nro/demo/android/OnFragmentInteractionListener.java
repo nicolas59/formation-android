@@ -1,6 +1,6 @@
-package android.demo.nro.fr;
+package fr.nro.demo.android;
 
-import android.demo.nro.fr.activity.AndroidVersion;
+import fr.nro.demo.android.model.AndroidVersion;
 
 /**
  * This interface must be implemented by activities that contain this

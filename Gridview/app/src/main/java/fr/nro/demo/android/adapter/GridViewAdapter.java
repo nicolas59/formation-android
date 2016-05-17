@@ -1,8 +1,6 @@
-package android.demo.nro.fr.adapter;
+package fr.nro.demo.android.adapter;
 
 import android.content.Context;
-import android.demo.nro.fr.activity.AndroidVersion;
-import android.demo.nro.fr.gridview.R;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
@@ -12,6 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import fr.nro.demo.android.R;
+import fr.nro.demo.android.model.AndroidVersion;
 
 /**
  * Created by Nicolas on 03/05/2016.
