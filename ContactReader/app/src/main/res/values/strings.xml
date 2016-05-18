@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Liste des contacts</string>
+    <string name="nb_called">%0$d échanges</string>
+</resources>
