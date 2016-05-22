@@ -24,17 +24,12 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         Contact contact = (Contact) this.getIntent().getParcelableExtra("contact");
-
         long contactId = contact.getId();
-
         Uri uri = ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, contactId);
-
 
         Cursor cursor = getContentResolver().query(uri,null, null, null, null );
         while(cursor.moveToNext()){
             Log.d(LOGGER_ID, cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.TIMES_CONTACTED)));
-
-
 
             ((TextView)findViewById(R.id.contactName)).setText(contact.getName());
             ((TextView)findViewById(R.id.contactTimeContacted)).setText(cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.TIMES_CONTACTED)));

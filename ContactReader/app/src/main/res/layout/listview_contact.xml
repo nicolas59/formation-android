@@ -20,7 +20,8 @@
             android:layout_height="100dp"
             android:id="@+id/imageView2"
             android:cropToPadding="false"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            android:background="@android:drawable/sym_def_app_icon" />
 
         <TextView
             android:layout_width="fill_parent"
@@ -58,13 +59,13 @@
             android:background="@color/button_material_light" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:id="@+id/imageButton"
             android:layout_below="@+id/imageView3"
             android:layout_alignStart="@+id/imageView3"
             android:src="@android:drawable/stat_sys_phone_call"
-            android:background="@android:color/transparent"
+            android:background="@drawable/icon_phone"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="2dp" />
