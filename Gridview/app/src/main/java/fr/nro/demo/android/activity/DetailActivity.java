@@ -4,6 +4,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,6 +27,9 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
 
         this.androidVersion = (AndroidVersion)getIntent().getParcelableExtra("androidItem");
         this.initializeActivity();
@@ -51,6 +55,7 @@ public class DetailActivity extends AppCompatActivity {
         tvDate.setText( androidVersion.getDateSortie());
 
         //affichage du bouton retour
+
         this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //recuperation du titre dans les ressources
