@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         this.listView = (ListView) findViewById(R.id.listview);
         final ContactAdapter adapter = new ContactAdapter(this, R.layout.listview_contact);
         adapter.attach(this);
+
         this.listView.setAdapter(adapter);
 
         this.listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){

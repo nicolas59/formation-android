@@ -28,7 +28,7 @@
         android:id="@+id/ivAndroid"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:background="@mipmap/ic_launcher" />
+        android:background="@drawable/jelly_bean" />
 
     <TextView
         android:layout_width="fill_parent"
